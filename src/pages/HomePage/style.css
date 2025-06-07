@@ -81,11 +81,12 @@ body {
 }
 
 .app-title {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
     color: #333;
     text-align: center;
     flex-grow: 1; /* Aby zabralo co nejvíce místa a vycentrovalo se */
+    position: center;
 }
 
 .header-icon {
