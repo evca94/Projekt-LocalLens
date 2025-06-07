@@ -16,15 +16,8 @@ const categories = ["Snídaně","Dopolední aktivity", "Oběd", "Odpolední akti
 
   return (
     <>
-<<<<<<< HEAD
     <Navigace />
-    <PageTitle />
-    <DenTitle />
-    <NazevActivity />
-    <BodProgramu />
-=======
    <PageTitle />
-   <Navigace />
     <DenTitle 
     dayTitle={den} />
     {categories.map((category) => {
@@ -38,7 +31,6 @@ const categories = ["Snídaně","Dopolední aktivity", "Oběd", "Odpolední akti
     }
     )
     }
->>>>>>> cde421adc1d43d4ac1ee8b3ea1fa3c3fb7fe1138
 
    </>
   );
