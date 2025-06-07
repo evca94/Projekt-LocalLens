@@ -1,7 +1,7 @@
-export const DenTitle = () => {
+export const DenTitle = ({dayTitle} ) => {
   return (
     <div className="container">
-     <div className="city-name"><h2>sobota</h2></div>
+     <div className="city-name"><h2>{dayTitle} </h2></div>
       </div>
   )
   }

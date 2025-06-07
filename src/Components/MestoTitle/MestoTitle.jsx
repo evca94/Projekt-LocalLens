@@ -1,7 +1,7 @@
-export const MestoTitle = () => {
+export const MestoTitle = ({name}) => {
   return (
     <div className="container">
-     <h1 className="city-name">České Budějovice</h1>
+     <h1 className="city-name">{name}</h1>
       </div>
   )
   }

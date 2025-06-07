@@ -5,15 +5,19 @@ import { MestoSubtitle } from '../../Components/MestoSubtitle/MestoSubtitle';
 import { Den } from '../../Components/Den/Den';
 
 
-export const MestoPage = () => {
+export const MestoPage = ({city} ) => {
   return (
     <>
    <PageTitle />
    <Navigace />
-   <MestoTitle />
-   <MestoSubtitle />
+   <MestoTitle name={city.name} />
+   <MestoSubtitle description={city.description}/>
    <div className='day-buttons-container'>
-    <Den /></div>
+    <Den day={"pátek"} />
+    <Den day={"sobota"} />
+    <Den day={"neděle"} />
+    </div>
+    
    </>
   );
 };

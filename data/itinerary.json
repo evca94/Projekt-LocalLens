@@ -1,5 +1,4 @@
-{ 
-  "itinerary": [
+ [
 {
    "id": 0,
    "day": "pátek",
@@ -257,7 +256,7 @@
   },
    {
 
-    "id": 2,
+    "id": 25,
     "day": "neděle",
     "category": "Oběd",
     "name": "Restaurace Solidní Šance",
@@ -278,4 +277,4 @@
   }
 
 ]
-}
+

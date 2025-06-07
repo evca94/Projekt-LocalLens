@@ -1,6 +1,6 @@
-export const Den = () => {
+export const Den = ({day} ) => {
   return (
-    <div className="day-button"><h3>pátek</h3>
+    <div className="day-button"><h3>{day}</h3>
     </div>
   )
   }
