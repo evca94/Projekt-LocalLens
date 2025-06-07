@@ -1,0 +1,23 @@
+.city-name {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    position: center;
+    text-align: center;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 400px; /* Maximální šířka pro mobilní rozhraní */
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden; /* Pro případné zaoblené rohy */
+}
+@media (min-width: 600px) {
+    .app-container {
+        border-radius: 20px; /* Větší zaoblení */
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }}
+

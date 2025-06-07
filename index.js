@@ -35,3 +35,22 @@ prev.onclick = function() {
  active = active - 1 >= 0 ? active - 1 : active;
  loadShow();
 }
+
+function setResponsiveStyles() {
+  const screenWidth = window.innerWidth;
+
+  if (screenWidth < 768) {
+   
+    document.body.classList.add('mobile-layout');
+    document.getElementById('myElement').style.fontSize = '14px';
+  }
+ else {
+    
+    document.body.classList.remove('mobile-layout');
+    document.getElementById('myElement').style.fontSize = '16px';
+  }
+}
+
+setResponsiveStyles();
+
+window.addEventListener('resize', setResponsiveStyles);
