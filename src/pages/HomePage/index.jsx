@@ -6,8 +6,6 @@ export const HomePage = () => {
     <>
    <PageTitle />
    <Uvod />
-   
-
    </>
   );
 };

@@ -9,7 +9,7 @@ export const ItinerarPage = () => {
     <>
    <PageTitle />
    <Navigace />
-    <DenTitle />
+    <DenTitle  />
     <NazevActivity />
     <BodProgramu />
 

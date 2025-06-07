@@ -14,7 +14,7 @@ console.log(cities)
               <Routes>
                   <Route path="/" element={<HomePage />}/>
                   <Route path="/mesto" element={<MestoPage city={cities[1]} />}/>
-                  <Route path="/itinerar" element={<ItinerarPage dayTitle={itinerary[3] } />}/>
+                  <Route path="/itinerar" element={<ItinerarPage  />}/>
               </Routes>
           </BrowserRouter>
   )
