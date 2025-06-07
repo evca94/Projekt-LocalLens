@@ -1,3 +1,4 @@
+import './navigace.css';
 export const Navigace = () => {
   return (
     <div className="app-header">

@@ -1,3 +1,4 @@
+import './mestoTitle.css';
 export const MestoTitle = ({name}) => {
   return (
     <div className="container">

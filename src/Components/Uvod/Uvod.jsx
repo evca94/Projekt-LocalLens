@@ -1,3 +1,4 @@
+import './uvod.css';
 export const Uvod = () => {
   return (
     <div className="app-header">
