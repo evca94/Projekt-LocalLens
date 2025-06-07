@@ -124,7 +124,7 @@
   {
     "id": 12,
     "day": "sobota",
-    "category": "Odpolední program",
+    "category": "Odpolední aktivity",
     "name": "Jihočeské muzeum",
     "website": "https://www.muzeumcb.cz/jihoceske-muzeum/",
     "image": "jihoceske-muzeum.jpg",
@@ -134,7 +134,7 @@
    {
     "id": 13,
     "day": "sobota",
-    "category": "Sportovní aktivita",
+    "category": "Sportovní aktivity",
     "name": "Plavání na Plaveckém stadionu",
     "website": "https://www.szcb.cz/plavecky-stadion",
     "image": "plavecky-stadion.jpg",
@@ -144,7 +144,7 @@
   {
     "id": 14,
     "day": "sobota",
-    "category": "Sportovní aktivita",
+    "category": "Sportovní aktivity",
     "name": "Lezecké centrum Lanovka",
     "website": "https://stenalanovka.cz/",
     "image": "horolezecka-stena.jpg",
@@ -194,7 +194,7 @@
 {
 "id": 19,
 "day": "neděle",
-"category": "snídaně",
+"category": "Snídaně",
 "name": "Kavárna Lanna",
 "website": "https://www.kavarna-lanna.cz/",
 "image": "kavarna-lanna.jpg",
@@ -204,7 +204,7 @@
 {
 "id": 20,
 "day": "neděle",
-"category": "snídaně",
+"category": "Snídaně",
 "name": "Esence Café",
 "website": "https://esencecafe.cz/",
 "image": "esence-cafe.jpg",
@@ -214,7 +214,7 @@
  {  
     "id": 21,
     "day": "neděle",
-    "category": "Sportovní aktivita",
+    "category": "Sportovní aktivity",
     "name": "Jízda na kole kolem Vrbenských rybníků",
     "website": "https://www.jiznicechy.cz/",
     "image": "vrbenske-rybniky.jpg",
@@ -225,7 +225,7 @@
   {
     "id": 22,
     "day": "neděle",
-    "category": "Sportovní aktivita",
+    "category": "Sportovní aktivity",
     "name": "Kajak nebo paddleboard na řece Malši",
     "website": "https://sportbp.cz/",
     "image": "kajak-malše.jpg",
@@ -236,7 +236,7 @@
    {
     "id": 23,
     "day": "neděle",
-    "category": "Výlet",
+    "category": "Dopolední aktivity",
     "name": "Zámek Hluboká nad Vltavou",
     "website": "https://www.zamek-hluboka.cz/cs",
     "image": "zamek-hluboka.jpg",
@@ -246,7 +246,7 @@
   {
     "id": 24,
     "day": "neděle",
-    "category": "Výlet",
+    "category": "Dopolední aktivity",
     "name": "Hora Kleť",
     "website": "https://www.klet.com/",
     "image": "hora-klet.jpg",
