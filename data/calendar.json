@@ -1,0 +1,115 @@
+{
+  "events": [
+    {
+      "id": 0,
+      "name": "Houby města Českých Budějovic",
+      "date": "2025-06-06",
+      "location": "Jihočeské muzeum, Dukelská 1, České Budějovice",
+      "price": "25 Kč (snížené 15 Kč, rodinná vstupenka 55 Kč)",
+      "organizer": "Jihočeské muzeum a Mykologický klub Jihočeského muzea",
+      "contact": "info@muzeumcb.cz"
+    },
+    {
+      "id": 1,
+      "name": "Prohlídka města České Budějovice",
+      "date": "2025-06-07",
+      "location": "Radnice, České Budějovice",
+       "price": "dospělí - 100 Kč, děti - 50 Kč",
+       "organiser": "Radnice České Budějovice",
+       "contact": "www.inbudejovice.cz"
+      },
+      {
+      "id": 2,
+      "name": "Komentovaná plavba",
+      "date": "2025-06-08",
+      "location": "Sokolský ostrov, České Budějovice",
+      "organizer": "Kavárna VLNNA",
+      "contact": "Telefon: 608 001 181"
+    },
+    {
+      "id": 3,
+      "name": "Hmyzí tváře",
+      "date": "2025-06-09",
+      "location": "Jihočeské muzeum v Českých Budějovicích, České Budějovice 6",
+      "organizer": "Jihočeské muzeum",
+      "contact": "info@muzeumcb.cz"
+    },
+    {
+      "id": 4,
+      "name": "Kejklíř Vojta Vrtek",
+      "date": "2025-06-13",
+      "location": "Vodácké centrum České Vrbné, České Budějovice",
+      "price": "50 Kč",
+      "organizer": "BudeCirkus, z.s.",
+      "contact": "ptejse@budecirkus.com"
+    },
+    {
+      "id": 5,
+      "name": "Den otevřených dveří DPMCB 2025",
+      "date": "2025-06-14",
+      "location": "Dopravní podnik města České Budějovice, a.s. (areál Novohradská), České Budějovice",
+      "organizer": "Dopravní podnik města České Budějovice, a.s.",
+      "contact": "marketing@dpmcb.cz"
+    },
+    {
+      "id": 6,
+      "name": "Kachna na prameni",
+      "date": "2025-06-15",
+      "location": "Vodárenská věž, České Budějovice 7",
+      "organizer": "Vodárenská věž České Budějovice",
+      "contact": "vodarenskavezcb@cevak.cz"
+    },
+
+    {
+      "id": 7,
+      "name": "Máme prachy! | BABY CLUB",
+      "date": "2025-06-19",
+      "location": "Biograf Kotva, Lidická 2110, České Budějovice",
+      "price": "160 Kč",
+      "organizer": "AJAT, z.s.",
+      "contact": "info@biografkotva.cz"
+    },
+    {
+      "id": 8,
+      "name": "Pruhované panenky",
+      "date": "2025-06-20",
+      "location": "Vodácké centrum České Vrbné, České Budějovice",
+      "price": "50 Kč",
+      "organizer": "BudeCirkus, z.s.",
+      "contact": "ptejse@budecirkus.com"
+    },
+    {
+      "id": 9,
+      "name": "Valkýra | KRÁLOVSKÁ OPERA",
+      "date": "2025-06-21",
+      "location": "Biograf Kotva, České Budějovice",
+      "organizer": "Biograf Kotva",
+      "contact": "info@biografkotva.cz"
+    },
+     {
+      "id": 10,
+      "name": "MAMMA MIA Show",
+      "date": "2025-06-22",
+      "location": "Dům kultury Metropol, České Budějovice",
+      "organizer": "Hvězdné Impérium Metropol, spol. s r.o.",
+      "contact": "info@metropolcb.cz"
+    },
+    {
+      "id": 11,
+      "name": "TOULKY KRAJINOU",
+      "date": "2025-06-28",
+      "location": "Jihočeská vědecká knihovna, Na Sadech 27, České Budějovice",
+      "organizer": "Jihočeská vědecká knihovna",
+      "contact": "info@cbvk.cz"
+    },
+    {
+      "id": 12,
+      "name": "DIVADLO PRO DĚTI NA MALÁKU",
+      "date": "2025-06-29",
+      "location": "Areál Malý jez u řeky Malše, České Budějovice 1",
+      "organizer": "Panská s úsměvem, z.s.",
+      "contact": "p.hadova@gmail.com"
+    }
+
+  ]
+}
