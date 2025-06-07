@@ -1,0 +1,107 @@
+
+[
+  {
+    "id": 1,
+    "name": "Brno",
+    "description": "Druhé největší město ČR a metropole Moravy, ležící na soutoku Svratky a Svitavy. Je významným centrem vědy, výzkumu a soudnictví s řadou univerzit. Dominantou města je hrad Špilberk a katedrála sv. Petra a Pavla. Je také známé pro svůj brněnský okruh pro motocyklové závody.",
+    "images": [
+      "images/Brno.webp"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "České Budějovice",
+    "description": "Největší město Jihočeského kraje, ležící na řece Vltavě. Je známé svým historickým náměstím Přemysla Otakara II. s Černou věží, pivovarem Budvar a blízkostí zámku Hluboká. Město je centrem obchodu, kultury a vzdělávání v regionu.",
+    "images": [
+      "images/CeskeBudejovice.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Hradec Králové",
+    "description": "Město ve východních Čechách na soutoku Labe a Orlice, známé svou moderní architekturou z počátku 20. století (tzv. \"Salon republiky\"). Má krásné historické centrum s Bílou věží a katedrálou sv. Ducha. Je významným univerzitním městem.",
+    "images": [
+      "images/HradecKralove.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Jihlava",
+    "description": "Centrum Kraje Vysočina, ležící na řece Jihlavě. Historické hornické město s bohatou stříbrnou minulostí. Má zachovalé historické centrum s podzemními chodbami, gotickou bránou Matky Boží a kostelem sv. Jakuba.",
+    "images": [
+      "images/Jihlava.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Karlovy Vary",
+    "description": "Nejznámější lázeňské město v západních Čechách, proslulé svými horkými prameny, kolonádami a mezinárodním filmovým festivalem. Je to elegantní město s jedinečnou architekturou a klidnou atmosférou.",
+    "images": [
+      "images/KarlovyVary.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Liberec",
+    "description": "Leží v severních Čechách pod Ještědem a Jizerskými horami. Je známý svým majestátním vysílačem na Ještědu (architektonická ikona), botanickou a zoologickou zahradou, a komplexem Centra Babylon. Je to oblíbené místo pro zimní sporty i letní turistiku.",
+    "images": [
+      "images/Liberec.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Olomouc",
+    "description": "Historické univerzitní město na střední Moravě, proslulé Sloupem Nejsvětější Trojice, který je zapsán na seznamu UNESCO. Město má krásné historické centrum s mnoha kostely, kašnami a Arcibiskupským palácem. Je to významné církevní a vzdělávací centrum.",
+    "images": [
+      "images/Olomouc.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ostrava",
+    "description": "Třetí největší město, ležící na severovýchodě Moravy, blízko polských a slovenských hranic. Historicky průmyslové město s bohatou hornickou minulostí, která se dnes transformuje v kulturní a vzdělávací centrum. K vidění jsou unikátní industriální památky jako Dolní oblast Vítkovice nebo Landek Park.",
+    "images": [
+      "images/Ostrava.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pardubice",
+    "description": "Město ve východních Čechách na řece Labi, známé především perníkem, Velkou pardubickou steeplechase (dostihy) a renesančním zámkem. Má krásné historické centrum s typickými perníkovými domy.",
+    "images": [
+      "images/Pardubice.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Plzeň",
+    "description": "Město v západních Čechách, známé především díky pivovaru Plzeňský Prazdroj a svému historickému centru s katedrálou sv. Bartoloměje a Velkou synagogou. Plzeň je také důležitým průmyslovým a kulturním centrem.",
+    "images": [
+      "images/Plzen.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Praha",
+    "description": "Hlavní a největší město České republiky, ležící na řece Vltavě. Je historickým, kulturním a ekonomickým centrem země. Praha je známá svým Staroměstským náměstím, Karlovým mostem, Pražským hradem a množstvím malebných uliček. Je na seznamu UNESCO a přitahuje miliony turistů ročně.",
+    "images": [
+      "images/Praha.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Ústí nad Labem",
+    "description": "Leží na severu Čech na řece Labi, obklopené malebnou krajinou Českého středohoří. Město je průmyslovým centrem, ale nabízí i řadu přírodních krás a kulturních památek, jako je hrad Střekov.",
+    "images": [
+      "images/UstiNadLabem.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Zlín",
+    "description": "Město v jihovýchodní Moravě, úzce spojené s obuvnickou firmou Baťa. Architektura města je unikátní díky funkcionalistickým stavbám z 20. let 20. století. Dnes je centrem obchodu, vzdělávání a kultury s univerzitou Tomáše Bati.",
+    "images": [
+      "images/Zlin.jpg"
+    ]
+  }
+]
