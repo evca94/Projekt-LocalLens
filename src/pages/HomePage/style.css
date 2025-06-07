@@ -174,6 +174,126 @@ body {
     box-shadow: 0 3px 10px rgba(0, 123, 255, 0.3);
 }
 
+/* Nadpis dne (SOBOTA) */
+.day-heading {
+    font-size: 1.1em;
+    color: #777;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0; /* Vertikální padding */
+    background-color: #f0f0f0; /* Mírně odlišné pozadí */
+    margin-bottom: 20px; /* Mezera pod nadpisem dne */
+}
+
+/* Hlavní obsah stránky */
+.content-section {
+    padding: 0px 0px 25px 0px; /* Upravený padding */
+    text-align: center;
+}
+
+/* Sekce pro kategorie (Snídaně, Obědy, Aktivity) */
+.category-section {
+    margin-bottom: 25px; /* Mezera mezi kategoriemi */
+    padding: 0 20px; /* Horizontální padding */
+}
+
+.category-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    text-align: left; /* Zarovnání nadpisu kategorie vlevo */
+    margin-bottom: 15px;
+    padding-left: 5px; /* Mírné odsazení pro text */
+}
+
+/* Karta pro jednotlivou položku (Café Datel, Černá věž atd.) */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding-bottom: 15px; /* Vnitřní odsazení pro text */
+    margin-bottom: 20px; /* Mezera mezi kartami */
+    overflow: hidden; /* Důležité pro zaoblené rohy obrázku */
+    text-align: left; /* Obsah karty zarovnán vlevo */
+}
+
+.image {
+    width: 100%;
+    height: 200px; /* Pevná výška pro hlavní obrázek */
+    object-fit: cover; /* Zajistí, že obrázek vyplní element bez deformace */
+    border-radius: 10px 10px 0 0; /* Zaoblené rohy jen nahoře */
+    margin-bottom: 15px; /* Mezera pod obrázkem */
+}
+
+/* Styly pro koláž obrázků (pokud ji použiješ) */
+.image-collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 sloupce stejné šířky */
+    gap: 2px; /* Velmi malá mezera mezi obrázky */
+    margin-bottom: 15px;
+    height: 120px; /* Pevná výška pro celou koláž */
+    overflow: hidden; /* Skryje případné přesahy */
+}
+
+.image-collage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* Odstraní mezery pod obrázky */
+}
+
+
+.name {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 0 20px; /* Horizontální padding */
+}
+
+.description {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+    padding: 0 20px; /* Horizontální padding */
+}
+
+.item-details {
+    padding: 0 20px; /* Horizontální padding */
+}
+
+.detail-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px; /* Mezera mezi detaily */
+    font-size: 0.9em;
+    color: #555;
+}
+
+.detail-icon {
+    margin-right: 8px;
+    color: #007bff; /* Modrá barva ikony mapy */
+    font-size: 1.1em;
+}
+
+.website {
+    display: block; /* Každý odkaz na vlastním řádku */
+    font-size: 0.9em;
+    color: #007bff; /* Modrá barva pro odkazy */
+    text-decoration: none;
+    margin-bottom: 5px;
+    word-break: break-all; /* Zalomí dlouhé URL adresy */
+}
+
+.website:hover {
+    text-decoration: underline;
+}
+
+.map {
+    margin-top: 10px; /* Mezera nad odkazem na mapu */
+}
+
 /* Responzivní úpravy pro větší obrazovky (např. tablet) */
 @media (min-width: 600px) {
     .app-container {
