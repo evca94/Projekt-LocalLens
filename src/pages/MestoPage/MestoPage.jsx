@@ -1,6 +1,5 @@
 import { PageTitle } from '../../Components/PageTitle';
 import { Navigace } from '../../Components/Navigace';
-import './style.css';
 import { MestoTitle } from '../../Components/MestoTitle';
 import { MestoSubtitle } from '../../Components/MestoSubtitle';
 import { Den } from '../../Components/Den';
@@ -15,8 +14,6 @@ export const MestoPage = () => {
    <MestoSubtitle />
    <div className='day-buttons-container'>
     <Den /></div>
-    
-
    </>
   );
 };

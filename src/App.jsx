@@ -1,7 +1,7 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { HomePage } from "./pages/HomePage"
-import { MestoPage } from "./pages/MestoPage"
-import { ItinerarPage } from "./pages/MestoPage"
-
+import { ItinerarPage } from "./pages/ItinerarPage/ItinerarPage"
+import { MestoPage } from "./pages/MestoPage/MestoPage"
 
 export const App = () => {
 
