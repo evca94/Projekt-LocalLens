@@ -52,13 +52,14 @@ body {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif; /* Použití fontu Timeless */
     background-color: #f8f8f8; /* Světle šedé pozadí celé stránky */
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Zarovnání obsahu nahoru */
     min-height: 100vh;
     padding: 20px 0; /* Vertikální padding pro kontejner */
+    text-align: center;
 }
 
 .app-container {
@@ -87,6 +88,7 @@ body {
     text-align: center;
     flex-grow: 1; /* Aby zabralo co nejvíce místa a vycentrovalo se */
     position: center;
+    
 }
 
 .header-icon {
@@ -126,6 +128,17 @@ body {
     color: #333;
     margin-bottom: 15px;
     position: center;
+    text-align: center;
+}
+
+.headings{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    position: center;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .city-description {
@@ -133,7 +146,7 @@ body {
     line-height: 1.6;
     color: #555;
     margin-bottom: 30px;
-    text-align: justify; /* Text zarovnaný do bloku */
+    text-align: center; 
     position: center;
 }
 
@@ -141,15 +154,25 @@ body {
 .day-buttons-container {
     display: flex;
     flex-direction: column; /* Tlačítka pod sebou */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px; /* Horizontální padding pro kontejner */
+    width: 100%; /* Šířka kontejneru */
+    max-width: 400px; /* Maximální šířka pro mobilní rozhraní */
     gap: 15px; /* Mezera mezi tlačítky */
-    position: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; /* Vycentrování kontejneru */
+  margin-top: 30px;
 }
 
 .day-button {
-    width: 100%;
+    min-width: 190px;
+    max-width: 250px;
     padding: 18px 25px;
     background-color: #ddd; /* Šedé pozadí tlačítek */
-    color: #444; /* Tmavší text */
+    color: #000000; /* Tmavší text */
     border: none;
     border-radius: 8px;
     font-size: 1.1em;
@@ -157,6 +180,10 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.1s ease;
     text-transform: uppercase; /* Text velkými písmeny */
+    display: flex;
+    justify-content: center; /* Vycentrování textu */
+    align-items: center; /* Vertikální zarovnání textu */
+
 }
 
 .day-button:hover {
