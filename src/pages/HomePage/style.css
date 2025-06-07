@@ -90,32 +90,6 @@ body {
     position: center;
     
 }
-
-.header-icon {
-    font-size: 1.8em;
-    color: #333;
-    text-decoration: none;
-    padding: 5px; /* Pro snadnější klikání */
-}
-
-.back-arrow {
-    font-size: 1.5em;
-    color: #333;
-    text-decoration: none;
-    padding: 5px; 
-    margin-right: 10px; 
-    display: flex;
-    align-items: center;    
-}
-
-.home-icon {
-    font-size: 1.8em;
-    color: #333;
-    text-decoration: none;
-    padding: 5px; 
-    margin-left: 10px; 
-}
-
 /* Sekce obsahu */
 .content-section {
     padding: 25px 30px; /* Větší padding pro obsah */

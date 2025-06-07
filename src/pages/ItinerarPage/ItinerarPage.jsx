@@ -7,8 +7,8 @@ import { BodProgramu } from '../../Components/BodProgramu/BodProgramu';
 export const ItinerarPage = () => {
   return (
     <>
-   <PageTitle />
-   <Navigace />
+    <Navigace />
+    <PageTitle />
     <DenTitle />
     <NazevActivity />
     <BodProgramu />

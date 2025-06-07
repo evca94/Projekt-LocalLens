@@ -1,26 +1,27 @@
-.home-icon {
-    font-size: 1.8em;
-    color: #333;
-    text-decoration: none;
-    padding: 5px; 
-    margin-left: 10px; 
-}
-
-.back-arrow {
-    font-size: 1.5em;
-    color: #333;
-    text-decoration: none;
-    padding: 5px; 
-    margin-right: 10px; 
-    display: flex;
-    align-items: center;    
-}
-
 .app-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #fff; /* Bílé pozadí hlavičky */
-    border-bottom: 1px solid #eee; /* Jemná linka pod hlavičkou */
+    background-color: #fff;
+    /* Bílé pozadí hlavičky */
+    border-bottom: 1px solid #eee;
+    /* Jemná linka pod hlavičkou */
+}
+
+
+.navigation-button {
+    width: 40px;
+    /* Šířka tlačítka */
+    height: 40px;
+    border: #fff;
+    background-color: #fff;
+}
+
+.back-arrow {
+    width: 100%
+}
+
+.home-icon {
+    width: 100%
 }
