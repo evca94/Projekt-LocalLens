@@ -6,7 +6,7 @@ import { MestoSubtitle } from '../../Components/MestoSubtitle';
 import { Den } from '../../Components/Den';
 
 
-export const Mesto = () => {
+export const MestoPage = () => {
   return (
     <>
    <PageTitle />
