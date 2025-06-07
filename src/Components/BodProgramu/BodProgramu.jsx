@@ -1,11 +1,14 @@
-export const BodProgramu = ({program} ) => {
+export const BodProgramu = ({ program }) => {
+  console.log(program);
+
   return (
     <div className="card">
-     <div className="image">{program.image} </div>
-     <div className="name">{program.name} </div>
-     <div className="description">{program.description}</div>
-     <div className="website">{program.website}</div>
-     <div className="map">{program.map}</div>
-      </div>
-  )
-  }
+      <img className="image" src={`/images/${program.image}`}>
+      </img>
+      <div className="name">{program.name} </div>
+      <div className="description">{program.description}</div>
+      <div className="website">{program.website}</div>
+      <div className="map">{program.map}</div>
+    </div>
+  );
+};

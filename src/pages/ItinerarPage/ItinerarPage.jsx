@@ -20,9 +20,10 @@ const categories = ["Snídaně","Dopolední aktivity", "Oběd", "Odpolední akti
    <PageTitle />
     <DenTitle 
     dayTitle={den} />
+
     {categories.map((category) => {
       const filteredItems = filteredItinerar.filter((item ) => category === item.category)
-    
+  
       return (
         <Category 
         key={category}
