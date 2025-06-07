@@ -1,0 +1,281 @@
+{ 
+  "itinerary": [
+{
+   "id": 0,
+   "day": "pátek",
+   "category": "Večeře",
+   "name": "Restaurace a pivovar Solnice",
+   "website": "https://restauracesolnice.cz/",
+    "image": "solnice.jpg",
+    "description": "Pivovar s unikátním podzemním pivovodem a restaurace s gastronomickými lahůdkami založenými na rakousko-uherské kuchyni s důrazem na vlastní výrobu pečiva.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=13217132&ds=1&x=14.4725213&y=48.9762401&z=17ht"
+  },
+  {
+    "id": 1,
+    "day": "pátek",
+    "category": "Večeře",
+    "name": "Restaurace Paluba",
+    "website": "https://www.restauracepaluba.cz/",
+    "image": "paluba.jpg",
+    "description": "Jedinečné posezení nad Mlýnskou stokou v městském parku s kouzelnou atmosférou a moderní kuchyní.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=13233864&ds=1&x=14.4737536&y=48.9779814&z=17"
+  },
+    {
+    "id": 2,
+    "day": "pátek",   
+    "category": "Večerní program",
+    "name": "Cocktail Bar Žlutá Ponorka",
+    "website": "https://www.barzlutaponorka.cz/",
+    "image": "zluta-ponorka.jpg",
+    "description": "Stylový podnik s jedinečnou atmosférou, který se nachází v historickém sklepním prostoru. Nabízí široký výběr koktejlů, prémiových destilátů, zejména rumů a ginů.",
+    "map": "https://mapy.com/cs/csr_index.html"
+  },
+  {
+    "id": 3,
+    "day": "pátek",
+    "category": "Večerní program",
+    "name": "Singer Pub",
+    "website": "https://singer.pub/",
+    "image": "singer-pub.jpg",
+    "description": "Oblíbený bar s minipivovarem, kde si kromě piva můžeš vychutnat skvělé koktejly a příjemnou atmosféru.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=2461067&ds=1&x=14.4724315&y=48.9747724&z=17"
+  },
+  {
+    "id": 4,
+    "day": "pátek",
+    "category": "Večerní program",
+    "name": "Náměstí Přemysla Otakara II.",
+    "website": "https://www.budejce.cz/aktivity/5-samsonova-kasna",
+    "image": "namesti-premysla-otakara.jpg",
+    "description": "Srdce města s historickými budovami a ikonickou barokní Samsonovou kašnou, která byla postavena v letech 1720–1727.",
+    "map": "https://mapy.com/cs/cs/csr_index.html?source=stre&id=84375&ds=1&x=14.4743733&y=48.9745344&z=18"
+  },
+    
+  {
+    "id": 5,
+    "day": "sobota",
+    "category": "Snídaně",
+    "name": "Café Datel",
+    "website": "https://www.cafedatel.cz/",
+    "image": "cafe-datel.jpg",
+    "description": "Café Datel je místem, kde se snoubí výběrová káva, kvalitní alkohol a domácí dobroty v jedinečné atmosféře jen pár kroků od náměstí.",
+    "map": "https://mapy.com/cs/cs/csr_index.html?source=firm&id=12917988&ds=1&x=14.4730551&y=48.9754009&z=17"
+  },
+  {
+    "id": 6,
+    "day": "sobota",
+    "category": "Snídaně",
+    "name": "Café Háječek",
+    "website": "www.cafehajecek.cz",
+    "image": "cafe-hajecek.jpg",
+    "description": "Jedinečná kavárna na soutoku Malše a Vltavy s unikátní architekturou v srdci Českých Budějovic.",
+    "map": "https://mapy.com/cs/cs/csr_index.html?source=firm&id=13398907&ds=1&x=14.4713233&y=48.9724181&z=17"
+  },
+   {
+
+  "id": 7,
+  "day": "sobota",
+  "category": "Dopolední aktivity",
+  "name": "Černá věž",
+  "website": "https://www.jiznicechy.cz/",
+  "image": "cerna-vez.jpg",
+  "description": "Historická věž z 16. století s nádherným panoramatickým výhledem na centrum města.",
+  "map": "https://mapy.com/cs/cs/csr_index.html?source=base&id=1716613&ds=1&x=14.4756909&y=48.9755344&z=17"
+  },
+  {
+  "id": 8,
+  "day": "sobota",
+    "category": "Dopolední aktivity",
+    "name": "Komentované plavby po Malši a Vltavě",
+    "website": "https://www.budejce.cz/aktivity/90-komentovane-plavby-po-malsi-a-vltave",
+    "image": "plavba-malsi-vltava.jpg",
+    "description": "Objev historické centrum Českých Budějovic z vody, projdi se kolem soutoku Malše a Vltavy a prozkoumej městské hradby.",
+    "map": "https://mapy.com/cs/cs/csr_index.html?source=firm&id=13159659&ds=1&x=14.4709339&y=48.9750747&z=17"
+  },
+   {
+    "id": 9,
+    "day": "sobota",
+    "category": "Oběd",
+    "name": "Restaurace Naše Farma",
+    "website": "https://restaurace.nasefarma.cz/",
+    "image": "nase-farma.jpg",
+    "description": "Restaurace zaměřená na lokální suroviny, kvalitní maso a sezónní menu.",
+    "map": "https://mapy.com/cs/cs/csr_index.html?source=firm&id=12959099&ds=1&x=14.4756503&y=48.9766011&z=17"
+  },
+  {
+    "id": 10,
+    "day": "sobota",
+    "category": "Oběd",
+    "name": "Bistro Magdelene",
+    "website": "https://bistromagdalene.cz/",
+    "image": "bistro-magdalene.jpg",
+    "description": "Rodinná restaurace zaměřená na moderní evropskou kuchyni.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=12834277&ds=1&x=14.4554885&y=48.9898724&z=17"
+  },
+    {
+    "id": 11,
+    "day": "sobota",
+    "category": "Odpolední aktivity",
+    "name": "Pivovar Budvar",
+    "website": "https://www.budejovickybudvar.cz/",
+    "image": "budvar.jpg",
+    "description": "Prohlídka slavného pivovaru spojená s ochutnávkou.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=404131&ds=1&x=14.4768400&y=48.9933099&z=17"
+  },
+  {
+    "id": 12,
+    "day": "sobota",
+    "category": "Odpolední program",
+    "name": "Jihočeské muzeum",
+    "website": "https://www.muzeumcb.cz/jihoceske-muzeum/",
+    "image": "jihoceske-muzeum.jpg",
+    "description": "Muzeum s bohatými expozicemi věnovanými například historii regionu, přírodním vědám a archeologii.",
+    "map": "https://mapy.com/cs/zakladni?q=muzeum%20%C4%8Desk%C3%A9%20bud%C4%9Bjovice&source=firm&id=230816&ds=2&x=14.4765934&y=48.9724629&z=17"
+  },
+   {
+    "id": 13,
+    "day": "sobota",
+    "category": "Sportovní aktivita",
+    "name": "Plavání na Plaveckém stadionu",
+    "website": "https://www.szcb.cz/plavecky-stadion",
+    "image": "plavecky-stadion.jpg",
+    "description": "Moderní bazén s wellness zónou, ideální pro relaxaci i sportovní plavání.",
+    "map": "https://mapy.com/cs/zakladni?q=plaveck%C3%BD%20stadion%20%C4%8Desk%C3%A9%20bud%C4%9Bjovice&source=firm&id=12872128&ds=2&x=14.4691636&y=48.9743935&z=17"
+  },
+  {
+    "id": 14,
+    "day": "sobota",
+    "category": "Sportovní aktivita",
+    "name": "Lezecké centrum Lanovka",
+    "website": "https://stenalanovka.cz/",
+    "image": "horolezecka-stena.jpg",
+    "description": "Lezecké centrum vhodné pro začátečníky i pokročilé, s různými obtížnostmi stěn.",
+    "map": "https://mapy.com/cs/zakladni?q=Lezeck%C3%A9%20centrum%20Lanovka&source=firm&id=12941810&ds=1&x=14.4796437&y=48.9742383&z=17"
+  },
+   {
+    "id": 15,
+    "day": "sobota",
+    "category": "Večeře",
+    "name": "Brio restaurant",
+    "website": "www.briorestaurant.cz",
+    "image": "brio-restaurant.jpg",
+    "description": "Restaurace, jejíž jídlo potěší chuťové pohárky, nadchne na první pohled a upoutá vůní.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=12961135&ds=1&x=14.4775515&y=48.9782209&z=17"
+  },
+  {
+    "id": 16,
+    "day": "sobota",
+    "category": "Večeře",
+    "name": "Harmio",
+    "website": "https://www.harmio.cz/restaurace",
+    "image": "harmio-restaurace.jpg",
+    "description": "Restaurace, kde se prolíná svět Asie a Itálie do jedné kuchyně.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=13775645&ds=1&x=14.4733472&y=48.9942625&z=17"
+  },
+   {
+    "id": 17,
+    "day": "sobota",
+    "category": "Večerní program",
+    "name": "Jihočeské divadlo",
+    "website": "https://www.jihoceskedivadlo.cz/",
+    "image": "jihoceske-divadlo.jpg",
+    "description": "Profesionální čtyřsouborové divadlo hraje pro dospělé i dětské diváky a před Otáčivým hledištěm v Českém Krumlově.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=230815&ds=1&x=14.4748145&y=48.9724583&z=17"
+  },
+  {
+    "id": 18,
+    "day": "sobota",
+    "category": "Večerní program",
+    "name": "Biograf Kotva",
+    "website": "https://www.biografkotva.cz/",
+    "image": "biograf-kotva.jpg",
+    "description": "Českobudějovický biograf, který nabízí nejen moderní filmový program, ale i stylovou kavárnu.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=13374392&ds=1&x=14.4754846&y=48.9667207&z=17"
+  },
+{
+"id": 19,
+"day": "neděle",
+"category": "snídaně",
+"name": "Kavárna Lanna",
+"website": "https://www.kavarna-lanna.cz/",
+"image": "kavarna-lanna.jpg",
+"description": "Kavárna se zvláštní a jemnou atmosférou s výhledem na řeku Vltavu, dětským hřištěm Bosonoha a klidným Atelierem.",
+"map": "https://mapy.com/cs/zakladni?q=kav%C3%A1rna%20lanna%20%C4%8Desk%C3%A9%20bud%C4%9Bjovice&source=firm&id=12854847&ds=1&x=14.4669645&y=48.9785249&z=17"
+},
+{
+"id": 20,
+"day": "neděle",
+"category": "snídaně",
+"name": "Esence Café",
+"website": "https://esencecafe.cz/",
+"image": "esence-cafe.jpg",
+"description": "Stylová kavárna na náměstí s unikátním interiérem a pestrou nabídkou výborné kávy, výjimečných vín z celého světa a lahodných domácích dezertů.",
+"map":"https://mapy.com/cs/zakladni?source=firm&id=13236132&ds=1&x=14.4732489&y=48.9748009&z=17"
+},
+ {  
+    "id": 21,
+    "day": "neděle",
+    "category": "Sportovní aktivita",
+    "name": "Jízda na kole kolem Vrbenských rybníků",
+    "website": "https://www.jiznicechy.cz/",
+    "image": "vrbenske-rybniky.jpg",
+    "description": "Krásná přírodní rezervace ideální pro cyklistiku. Nabízí klidné trasy v nádherné krajině, obklopené vodními plochami.",
+    "location": "Severozápadně od Českých Budějovic",
+    "map": "https://mapy.com/cs/zakladni?source=base&id=1703887&ds=1&x=14.4322325&y=49.0014372&z=14"
+  },
+  {
+    "id": 22,
+    "day": "neděle",
+    "category": "Sportovní aktivita",
+    "name": "Kajak nebo paddleboard na řece Malši",
+    "website": "https://sportbp.cz/",
+    "image": "kajak-malše.jpg",
+    "description": "Vyzkoušejte jízdu na kajaku nebo paddleboardu po řece Malši, skvělý zážitek v srdci města. Možnost zapůjčení vybavení v místní půjčovně.",
+    "location": "Sokolský ostrov, České Budějovice",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=2502309&ds=1&x=14.4698175&y=48.9751461&z=17"
+  },
+   {
+    "id": 23,
+    "day": "neděle",
+    "category": "Výlet",
+    "name": "Zámek Hluboká nad Vltavou",
+    "website": "https://www.zamek-hluboka.cz/cs",
+    "image": "zamek-hluboka.jpg",
+    "description": "Pohádkový zámek obklopený nádherným parkem. Zámek nabízí prohlídkové okruhy s historickými interiéry.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=2432424&ds=1&x=14.4420557&y=49.0506117&z=17"
+  },
+  {
+    "id": 24,
+    "day": "neděle",
+    "category": "Výlet",
+    "name": "Hora Kleť",
+    "website": "https://www.klet.com/",
+    "image": "hora-klet.jpg",
+    "description": "Nejvyšší vrchol Blanského lesa (1083 m) s historickou kamennou rozhlednou a hvězdárnou. Nabízí nádherné výhledy na Šumavu a Alpy.",
+    "route": "Holubov → Kleť (6,5 km) nebo lanovka z Krasetína",
+    "map": "https://mapy.com/cs/zakladni?planovani-trasy&rc=9gmknxSHZK1YnxR.8v&rs=pubt&rs=base&ri=15211413&ri=1835985&mrp=%7B%22c%22%3A132%2C%22dt%22%3A%22%22%2C%22d%22%3Atrue%7D&xc=%5B%5D&rwp=1%3B9glTsxSFcdefw3kHfRVfcMf4sffvDpemZfeEfSzedmhoqfFv30k&x=14.3040812&y=48.8786910&z=13"
+  },
+   {
+
+    "id": 2,
+    "day": "neděle",
+    "category": "Oběd",
+    "name": "Restaurace Solidní Šance",
+    "website": "https://www.solidnisance.cz/",
+    "image": "solidni-sance.jpg",
+    "description": "Nejstarší hostinec v Hluboké nad Vltavou s tradiční českou kuchyní a lokálními surovinami. Nabízí stylový interiér a příjemnou atmosféru.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=13121222&ds=1&x=14.4364713&y=49.0508871&z=17"
+  },
+  {
+    "id": 26,
+    "day": "neděle",
+    "category": "Oběd",
+    "name": "Horská chata Kleť",
+    "website": "http://www.klet.com/",
+    "image": "horska-chata-klet.jpg",
+    "description": "Turistická chata na vrcholu hory Kleť s restaurací, rozhlednou a možností ubytování. Ideální místo pro odpočinek po výšlapu.",
+    "map": "https://mapy.com/cs/zakladni?source=firm&id=241987&ds=1&x=14.2832496&y=48.8654647&z=17"
+  }
+
+]
+}
