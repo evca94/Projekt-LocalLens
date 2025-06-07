@@ -1,8 +1,6 @@
 import { PageTitle } from '../../Components/PageTitle/PageTitle';
 import { Navigace } from '../../Components/Navigace/Navigace';
 import { DenTitle } from '../../Components/DenTitle/DenTitle';
-import { NazevActivity } from '../../Components/NazevActivity/NazevActivity';
-import { BodProgramu } from '../../Components/BodProgramu/BodProgramu';
 import { useParams } from 'react-router-dom';
 import  itinerary from '../../../data/itinerary.json'
 import { Category } from '../../Components/Category/Category';
@@ -18,10 +16,9 @@ const categories = ["Snídaně","Dopolední aktivity", "Oběd", "Odpolední akti
     <>
     <Navigace />
    <PageTitle />
-    <DenTitle 
-    dayTitle={den} />
+    <DenTitle dayTitle={den} />
     {categories.map((category) => {
-      const filteredItems = filteredItinerar.filter((item ) => category === item.category)
+      const filteredItems = filteredItinerar.filter((item ) => category === item.category)      
     
       return (
         <Category 

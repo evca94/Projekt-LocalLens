@@ -2,7 +2,8 @@ import { BodProgramu } from "../BodProgramu/BodProgramu"
 import { NazevActivity } from "../NazevActivity/NazevActivity"
 
 export const Category = ({name, items} ) => {
-if (items || items.length === 0) {
+  
+if (!items || items.length === 0) {
   return null
 }
 
@@ -16,7 +17,7 @@ if (items || items.length === 0) {
     
     return ( 
     <BodProgramu
-     key={name}
+     key={item.name}
      program={item} />
   )
   })}

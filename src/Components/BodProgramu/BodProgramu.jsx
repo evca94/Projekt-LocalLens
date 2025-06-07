@@ -1,4 +1,4 @@
-export const BodProgramu = ({program} ) => {
+export const BodProgramu = ({program} ) => {  
   return (
     <div className="card">
      <div className="image">{program.image} </div>
