@@ -1,3 +1,4 @@
+import './pageTitle.css';
 export const PageTitle = () => {
   return (
     <div className="app-header">

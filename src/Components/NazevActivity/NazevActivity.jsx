@@ -1,3 +1,4 @@
+import './nazevActivity.css';
 export const NazevActivity = () => {
   return (
     <div className="container">

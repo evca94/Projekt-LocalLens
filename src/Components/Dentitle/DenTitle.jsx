@@ -1,3 +1,4 @@
+import './denTitle.css';
 export const DenTitle = ({dayTitle} ) => {
   return (
     <div className="container">

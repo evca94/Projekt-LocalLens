@@ -1,3 +1,4 @@
+import './mestoSubtitle.css';
 export const MestoSubtitle = ({description}) => {
   return (
     <div className="container">
