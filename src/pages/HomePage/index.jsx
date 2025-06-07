@@ -6,6 +6,8 @@ import { MestoTitle } from '../../Components/MestoTitle';
 import { MestoSubtitle } from '../../Components/MestoSubtitle';
 import { Den } from '../../Components/Den';
 import { DenTitle } from '../../Components/DenTitle';
+import { NazevActivity } from '../../Components/NazevActivity';
+import { BodProgramu } from '../../Components/BodProgramu';
 
 export const HomePage = () => {
   return (
@@ -18,6 +20,8 @@ export const HomePage = () => {
    <div className='day-buttons-container'>
     <Den /></div>
     <DenTitle />
+    <NazevActivity />
+    <BodProgramu />
 
    </>
   );
