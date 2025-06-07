@@ -1,6 +1,4 @@
-export const BodProgramu = ({ program }) => {
-  console.log(program);
-
+export const BodProgramu = ({program} ) => {  
   return (
     <div className="card">
       <img className="image" src={`/images/${program.image}`}>

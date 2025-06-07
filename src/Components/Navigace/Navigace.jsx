@@ -1,13 +1,24 @@
+import { useNavigate } from 'react-router-dom';
 import './navigace.css';
 export const Navigace = () => {
+  const navigate = useNavigate()
+  const handleClickBack = () => {
+    navigate(-1)
+  }
+  const handleClickHome = () => {
+    navigate("/")
+  }
+
   return (
     <div className="app-header">
-      <button className="navigation-button">
+      <button onClick={handleClickBack} className="navigation-button">
         <img className="back-arrow" src="/images/iconBackArrow.png" alt="šipka"></img>
       </button>
-      <button className="navigation-button">
+      
+     <button onClick={handleClickHome} className="navigation-button">
         <img className="home-icon" src="/images/iconHome.png" alt="home"></img>
       </button>
+    
     </div>
   );
 };
