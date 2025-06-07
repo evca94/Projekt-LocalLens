@@ -240,6 +240,7 @@ body {
     height: 100%;
     object-fit: cover;
     display: block; /* Odstraní mezery pod obrázky */
+    position: center;
 }
 
 
@@ -249,6 +250,7 @@ body {
     color: #333;
     margin-bottom: 10px;
     padding: 0 20px; /* Horizontální padding */
+    position: center;
 }
 
 .description {
@@ -257,6 +259,7 @@ body {
     color: #555;
     margin-bottom: 15px;
     padding: 0 20px; /* Horizontální padding */
+    position: center;
 }
 
 .item-details {
