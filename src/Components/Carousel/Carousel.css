@@ -5,27 +5,6 @@
  overflow: hidden;
 }
 
-.div {
- background-image: linear-gradient(to right, #d4d3d4, #dddddd);
- min-height: 100vh;
- margin: 0;
- display: flex;
- justify-content: center;
- align-items: center;
- font-family: "Rajdhani", sans-serif;
-}
-
-.h1{
-    color:black;
-    font-size: larger;
-    text-align: center;
-    position: center;
-    font-family: "Rajdhani", sans-serif;;
-
-}
-
-
-
 #next, #prev {
  position: absolute;
  top: 40%;

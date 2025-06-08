@@ -56,15 +56,13 @@
     "id": 8,
     "name": "Ostrava",
     "description": "Třetí největší město, ležící na severovýchodě Moravy, blízko polských a slovenských hranic. Historicky průmyslové město s bohatou hornickou minulostí, která se dnes transformuje v kulturní a vzdělávací centrum. K vidění jsou unikátní industriální památky jako Dolní oblast Vítkovice nebo Landek Park.",
-    "images": 
-      "images/Ostrava.jpg"
+    "image": "images/Ostrava.jpg"
   },
   {
     "id": 9,
     "name": "Pardubice",
     "description": "Město ve východních Čechách na řece Labi, známé především perníkem, Velkou pardubickou steeplechase a renesančním zámkem. Má krásné historické centrum s typickými perníkovými domy.",
-    "images": 
-      "images/Pardubice.jpg"
+    "image": "images/Pardubice.jpg"
   },
   {
     "id": 10,
