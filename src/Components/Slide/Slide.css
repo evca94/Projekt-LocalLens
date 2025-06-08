@@ -12,9 +12,8 @@
  top: 0;
 
 }
-
-h1{
- font-family: "Jost", sans-serif;
+.slide-name {
+  font-family: "Jost", sans-serif;
  font-size: 40px;
  font-weight: 700;
  text-align: left;
@@ -24,4 +23,5 @@ h1{
  top: 50px;
  left: -10px;
 }
+
 

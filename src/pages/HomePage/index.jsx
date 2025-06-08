@@ -7,7 +7,6 @@ export const HomePage = () => {
   return (
 
      <div className="home-page-content">
-      <div></div>
    <PageTitle />
    <Carousel />
     <Uvod />

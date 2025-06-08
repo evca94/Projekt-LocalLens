@@ -33,7 +33,7 @@ export const Slide = ({ slide, slideIndex, activeIndex }) => {
     return (
       <Link to="/mesto">
         <div className="item" style={{...style, backgroundImage: `url(${slide.image})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover'}}>
-          <h1>{slide.name} </h1>
+          <h1 className="slide-name">{slide.name} </h1>
           {/* <div> {slide.description}</div> */}
         </div>
       </Link>
@@ -42,7 +42,7 @@ export const Slide = ({ slide, slideIndex, activeIndex }) => {
 
   return (
     <div className="item" style={{...style, backgroundImage: `url(${slide.image})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover'}}>
-      <h1>{slide.name} </h1>
+      <h1 className='slide-name'>{slide.name} </h1>
       {/* <div> {slide.description}</div> */}
     </div>
   );
