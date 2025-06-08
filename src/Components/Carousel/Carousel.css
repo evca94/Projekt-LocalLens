@@ -6,7 +6,7 @@
 }
 
 .div {
- background-image: linear-gradient(to right, #f8f9f9, #dddddd);
+ background-image: linear-gradient(to right, #d4d3d4, #dddddd);
  min-height: 100vh;
  margin: 0;
  display: flex;
