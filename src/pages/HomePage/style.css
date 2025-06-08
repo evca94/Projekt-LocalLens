@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 60px;
     background-color: #fff; /* Bílé pozadí hlavičky */
     border-bottom: 1px solid #eee; /* Jemná linka pod hlavičkou */
     position: center;
@@ -42,10 +42,6 @@ body {
     
 }
 /* Sekce obsahu */
-.content-section {
-    padding: 25px 30px; /* Větší padding pro obsah */
-    text-align: center;
-}
 
 .headings{
     font-size: 1.5em;
@@ -68,88 +64,12 @@ body {
     align-items: center;
 }
 
-/* Kontejner pro tlačítka dnů */
-.day-buttons-container {
-    display: flex;
-    flex-direction: column; /* Tlačítka pod sebou */
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 20px; /* Horizontální padding pro kontejner */
-    width: 100%; /* Šířka kontejneru */
-    max-width: 400px; /* Maximální šířka pro mobilní rozhraní */
-    gap: 15px; /* Mezera mezi tlačítky */
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto; /* Vycentrování kontejneru */
-  margin-top: 30px;
-}
-
-.day-button {
-    min-width: 190px;
-    max-width: 250px;
-    padding: 18px 25px;
-    background-color: #ddd; /* Šedé pozadí tlačítek */
-    color: #000000; /* Tmavší text */
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1em;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.1s ease;
-    text-transform: uppercase; /* Text velkými písmeny */
-    display: flex;
-    justify-content: center; /* Vycentrování textu */
-    align-items: center; /* Vertikální zarovnání textu */
-
-}
-
-.day-button:hover {
-    background-color: #ccc;
-}
-
-.day-button:active {
-    transform: scale(0.98); /* Mírné stlačení po kliknutí */
-}
-
-/* Styly pro aktivní tlačítko (bude přidávat JavaScript) */
-.day-button.active {
-    background-color: #007bff; /* Modrá barva pro aktivní tlačítko */
-    color: #fff;
-    box-shadow: 0 3px 10px rgba(0, 123, 255, 0.3);
-}
-
-/* Nadpis dne (SOBOTA) */
-.day-heading {
-    font-size: 1.1em;
-    color: #777;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 15px 0; /* Vertikální padding */
-    background-color: #f0f0f0; /* Mírně odlišné pozadí */
-    margin-bottom: 20px; /* Mezera pod nadpisem dne */
-}
-
 /* Hlavní obsah stránky */
 .content-section {
     padding: 0px 0px 25px 0px; /* Upravený padding */
     text-align: center;
 }
 
-/* Sekce pro kategorie (Snídaně, Obědy, Aktivity) */
-.category-section {
-    margin-bottom: 25px; /* Mezera mezi kategoriemi */
-    padding: 0 20px; /* Horizontální padding */
-}
-
-.category-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #333;
-    text-align: left; /* Zarovnání nadpisu kategorie vlevo */
-    margin-bottom: 15px;
-    padding-left: 5px; /* Mírné odsazení pro text */
-}
 
 /* Karta pro jednotlivou položku (Café Datel, Černá věž atd.) */
 .card {
@@ -161,33 +81,6 @@ body {
     overflow: hidden; /* Důležité pro zaoblené rohy obrázku */
     text-align: left; /* Obsah karty zarovnán vlevo */
 }
-
-.image {
-    width: 100%;
-    height: 200px; /* Pevná výška pro hlavní obrázek */
-    object-fit: cover; /* Zajistí, že obrázek vyplní element bez deformace */
-    border-radius: 10px 10px 0 0; /* Zaoblené rohy jen nahoře */
-    margin-bottom: 15px; /* Mezera pod obrázkem */
-}
-
-/* Styly pro koláž obrázků (pokud ji použiješ) */
-.image-collage {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 sloupce stejné šířky */
-    gap: 2px; /* Velmi malá mezera mezi obrázky */
-    margin-bottom: 15px;
-    height: 120px; /* Pevná výška pro celou koláž */
-    overflow: hidden; /* Skryje případné přesahy */
-}
-
-.image-collage img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block; /* Odstraní mezery pod obrázky */
-    position: center;
-}
-
 
 .name {
     font-size: 1.3em;
@@ -208,35 +101,6 @@ body {
     text-align: center;
 }
 
-.details {
-    padding: 0 20px; /* Horizontální padding */
-}
-
-.detail-row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px; /* Mezera mezi detaily */
-    font-size: 0.9em;
-    color: #555;
-}
-
-.detail-icon {
-    margin-right: 8px;
-    color: #007bff; /* Modrá barva ikony mapy */
-    font-size: 1.1em;
-}
-
-
-
-.website:hover {
-    text-decoration: underline;
-}
-
-.map {
-    margin-top: 10px; /* Mezera nad odkazem na mapu */
-}
-
-/* Responzivní úpravy pro větší obrazovky (např. tablet) */
 
 
     .app-title {
@@ -249,23 +113,23 @@ body {
         font-size: 2em;
     }
 
-  
-
-  
-
+    .city-name {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+        text-align: center; /* Vycentrování názvu města */
+        position: center;
+    }
     .city-description {
         font-size: 1em;
-    }
-
-    .day-button {
-        padding: 20px 30px;
-        font-size: 1.2em;
+        text-align: center;
     }
 
 .slider-container {
  width: 100%;
  height: 100vh;
- background-color: white;
+ background-color: rgb(147, 130, 130);
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
@@ -330,12 +194,9 @@ h1{
  font-weight: 700;
  text-align: center;
  text-transform: uppercase;
- color: rgb(11, 11, 11);
- position: absolute;
- top: 50px;
- left: -10px;
- transform: rotate(270deg);
- transition: 0.7s ease;
+ color: #000000;
+ position: center;
+ 
 }
 .slider-img.active{
  width: 766px !important;

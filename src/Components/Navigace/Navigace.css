@@ -16,10 +16,12 @@
     height: 40px;
     border: #fff;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .back-arrow {
     width: 100%
+    
 }
 
 .home-icon {
