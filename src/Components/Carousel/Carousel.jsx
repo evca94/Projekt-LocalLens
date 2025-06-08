@@ -24,6 +24,7 @@ export const Carousel = () => {
   
   return(
     <div className='slider'>
+     
     {cities.map((city, index) => {
     return (
       <Slide
@@ -34,9 +35,8 @@ export const Carousel = () => {
       />
      )
   })}
-  <button onClick={handleClickNext} id="next"> {">"}</button>
-  <button onClick={handleClickPrev} id="prev">{"<"}</button>
-
+  <button onClick={handleClickPrev} className='prev' >{"<"}</button>
+  <button onClick={handleClickNext} className='next'> {">"}</button>
   </div>
   )
 
