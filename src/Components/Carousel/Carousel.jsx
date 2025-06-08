@@ -11,6 +11,7 @@ export const Carousel = ({image} ) => {
          <img src="images/CeskeBudejovice.jpg" alt="CeskeBudejovice" />
          <h1>České Budějovice</h1>
        </div>
-  )}
+
+  )
   
-  
+  }

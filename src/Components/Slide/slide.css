@@ -1,0 +1,25 @@
+.item {
+ position: absolute;
+ width: 200px;
+ height: 320px;
+ text-align: justify;
+ background-color: white;
+ border-radius: 10px;
+ padding: 20px;
+ transition: 0.5s;
+ left: calc(50% - 110px);
+ top: 0;
+}
+
+h1{
+ font-family: "Jost", sans-serif;
+ font-size: 40px;
+ font-weight: 700;
+ text-align: left;
+ text-transform: uppercase;
+ color: white;
+ position: absolute;
+ top: 50px;
+ left: -10px;
+}
+
