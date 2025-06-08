@@ -22,7 +22,7 @@ export const Slide = ({ slide, slideIndex, activeIndex }) => {
     if (slideIndex > activeIndex) {
       style.transform = `translateX(${120 * absDiff}px) scale(${
         1 - 0.2 * absDiff
-      }) perspective(16px) rotateY(-1deg)`;
+      }) perspective(16px) rotateY(1deg)`;
     } else {
       style.transform = `translateX(${-120 * absDiff}px) scale(${
         1 - 0.2 * absDiff

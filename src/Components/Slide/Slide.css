@@ -1,17 +1,18 @@
 .item {
- position: absolute;
- width: 320px;
- height: 200px;
- text-align: justify;
- background-color: white;
- color: black;
- border-radius: 10px;
- padding: 20px;
- transition: 0.5s;
-  left: calc(50% - 110px);
- top: 0;
+  position: absolute;
+  width: 320px;
+  height: 200px;
+  text-align: justify;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  left: calc(50% - 160px);
+  top: 0;
 
 }
+
 .slide-name {
 font-family: "Jost", sans-serif;
 font-weight: large;

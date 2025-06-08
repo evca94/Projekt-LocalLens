@@ -14,13 +14,13 @@ export const MestoPage = ({ city }) => {
       <MestoTitle name={city.name} />
       <MestoSubtitle description={city.description} />
       <div className="day-buttons-container">
-        <Link to="/itinerar/pátek">
+        <Link to="/itinerar/pátek" className="link">
           <Den day={'pátek'} />
         </Link>
-        <Link to="/itinerar/sobota">
+        <Link to="/itinerar/sobota" className='link'>
           <Den day={'sobota'} />
         </Link>
-        <Link to="/itinerar/neděle">
+        <Link to="/itinerar/neděle" className='link'>
           <Den day={'neděle'} />
         </Link>
       </div>
