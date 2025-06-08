@@ -20,8 +20,26 @@
     border-bottom: 1px solid #eee;
     /* Jemná linka pod hlavičkou */
 }
-.h1{
+h1{
     color:black;
-    font-size: larger;
+    font-size: normal;
+    text-align: center;
+    position: center;
+    font-family: "Rajdhani", sans-serif;;
 
+}
+.app-container {
+    display: flex;
+    flex-direction: column; /* Důležité: Seřadí položky (komponenty) pod sebou */
+    
+    /* Většinou chceme, aby app-container měl maximální šířku a byl vycentrován */
+    width: 100%;
+    max-width: 400px; /* Příklad: pro mobilní zobrazení */
+    margin: 0 auto; /* Horizontální centrování celého obsahu na větší obrazovkách */
+    
+    min-height: 100vh; /* Zajistí, že kontejner zabere celou výšku viewportu */
+    background-color: #fff; /* Bílé pozadí pro obsah uvnitř kontejneru */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08); /* Jemný stín kolem celého obsahu */
+    overflow: hidden; /* Zabrání přetečení obsahu, např. zaoblené rohy */
+    border-radius: 15px; /* Zaoblené rohy celého obsahu */
 }

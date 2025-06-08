@@ -1,7 +1,7 @@
 
 
 body {
-    font-family: Arial, sans-serif; /* Použití fontu Timeless */
+    font-family: "Rajdhani"; /* Použití fontu Timeless */
     background-color: #f8f8f8; /* Světle šedé pozadí celé stránky */
     display: flex;
     justify-content: center;
@@ -25,13 +25,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     background-color: #fff; /* Bílé pozadí hlavičky */
     border-bottom: 1px solid #eee; /* Jemná linka pod hlavičkou */
     position: center;
 }
 
 .app-title {
+    font-family: "Rajdhani", sans-serif;
     font-size: 2em;
     font-weight: bold;
     color: #333;
@@ -46,13 +47,11 @@ body {
     text-align: center;
 }
 
-
-
 .headings{
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     position: center;
     text-align: center;
     text-decoration: underline;
@@ -206,6 +205,7 @@ body {
     margin-bottom: 15px;
     padding: 0 20px; /* Horizontální padding */
     position: center;
+    text-align: center;
 }
 
 .details {
@@ -237,15 +237,7 @@ body {
 }
 
 /* Responzivní úpravy pro větší obrazovky (např. tablet) */
-@media (min-width: 600px) {
-    .app-container {
-        border-radius: 20px; /* Větší zaoblení */
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    }
 
-    .app-header {
-        padding: 25px;
-    }
 
     .app-title {
         font-size: 1.8em;
@@ -257,9 +249,7 @@ body {
         font-size: 2em;
     }
 
-    .content-section {
-        padding: 30px 40px;
-    }
+  
 
   
 
@@ -271,7 +261,6 @@ body {
         padding: 20px 30px;
         font-size: 1.2em;
     }
-}
 
 .slider-container {
  width: 100%;
@@ -336,10 +325,10 @@ body {
 
 
 h1{
- font-family: "Jost", sans-serif;
+ font-family: "Rajdhani", sans-serif;
  font-size: 10px;
  font-weight: 700;
- text-align: left;
+ text-align: center;
  text-transform: uppercase;
  color: rgb(11, 11, 11);
  position: absolute;
