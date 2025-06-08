@@ -28,6 +28,7 @@ body {
     padding: 20px;
     background-color: #fff; /* Bílé pozadí hlavičky */
     border-bottom: 1px solid #eee; /* Jemná linka pod hlavičkou */
+    position: center;
 }
 
 .app-title {
@@ -336,11 +337,11 @@ body {
 
 h1{
  font-family: "Jost", sans-serif;
- font-size: 40px;
+ font-size: 10px;
  font-weight: 700;
  text-align: left;
  text-transform: uppercase;
- color: white;
+ color: rgb(11, 11, 11);
  position: absolute;
  top: 50px;
  left: -10px;

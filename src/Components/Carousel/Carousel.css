@@ -18,10 +18,10 @@
 #next, #prev {
  position: absolute;
  top: 40%;
- color: #ffffff;
+ color: #0c0c0c;
  background-color: transparent;
  border: none;
- font-size: xxx-large;
+ font-size: x-large;
  font-family: Arial, Helvetica, sans-serif;
  font-weight: bold;
  left: 50px;
