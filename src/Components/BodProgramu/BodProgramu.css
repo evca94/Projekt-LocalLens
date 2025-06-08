@@ -1,10 +1,10 @@
 .website {
     display: block; /* Každý odkaz na vlastním řádku */
     font-size: 0.9em;
-    color: #007bff; /* Modrá barva pro odkazy */
-    text-decoration: none;
+    color: #023e7e; /* Modrá barva pro odkazy */
     margin-bottom: 5px;
-    word-break: break-all; /* Zalomí dlouhé URL adresy */
+    text-align: center;
+    
 }
 
 .map {
@@ -50,11 +50,4 @@
     overflow: hidden; /* Důležité pro zaoblené rohy obrázku */
     text-align: left; /* Obsah karty zarovnán vlevo */
 }
-.image-collage {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 sloupce stejné šířky */
-    gap: 2px; /* Velmi malá mezera mezi obrázky */
-    margin-bottom: 15px;
-    height: 120px; /* Pevná výška pro celou koláž */
-    overflow: hidden; /* Skryje případné přesahy */
-}
+
