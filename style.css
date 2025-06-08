@@ -77,26 +77,6 @@ body {
   /* Pro případné zaoblené rohy */
 }
 
-/* Hlavička aplikace */
-.app-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #fff;
-  /* Bílé pozadí hlavičky */
-  border-bottom: 1px solid #eee;
-  /* Jemná linka pod hlavičkou */
-}
-
-.app-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  flex-grow: 1;
-  /* Aby zabralo co nejvíce místa a vycentrovalo se */
-}
 
 .header-icon {
   font-size: 1.8em;
@@ -106,49 +86,6 @@ body {
   /* Pro snadnější klikání */
 }
 
-/* Sekce obsahu */
-.content-section {
-  padding: 25px 30px;
-  /* Větší padding pro obsah */
-  text-align: center;
-}
-
-
-
-.city-description {
-  font-size: 0.95em;
-  line-height: 1.6;
-  color: #555;
-  margin-bottom: 30px;
-  text-align: justify;
-  /* Text zarovnaný do bloku */
-}
-
-/* Kontejner pro tlačítka dnů */
-.day-buttons-container {
-  display: flex;
-  flex-direction: column;
-  /* Tlačítka pod sebou */
-  gap: 15px;
-  /* Mezera mezi tlačítky */
-}
-
-.day-button {
-  width: 100%;
-  padding: 18px 25px;
-  background-color: #ddd;
-  /* Šedé pozadí tlačítek */
-  color: #444;
-  /* Tmavší text */
-  border: none;
-  border-radius: 8px;
-  font-size: 1.1em;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.1s ease;
-  text-transform: uppercase;
-  /* Text velkými písmeny */
-}
 
 .day-button:hover {
   background-color: #ccc;
@@ -173,32 +110,6 @@ body {
     border-radius: 20px;
     /* Větší zaoblení */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  }
-
-  .app-header {
-    padding: 25px;
-  }
-
-  .app-title {
-    font-size: 1.8em;
-  }
-
-  .header-icon {
-    font-size: 2em;
-  }
-
-  .content-section {
-    padding: 30px 40px;
-  }
-
-  
-  .city-description {
-    font-size: 1em;
-  }
-
-  .day-button {
-    padding: 20px 30px;
-    font-size: 1.2em;
   }
 
   .h2 {
