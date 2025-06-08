@@ -41,14 +41,14 @@
   {
     "id": 6,
     "name": "Liberec",
-    "description": "Leží v severních Čechách pod Ještědem a Jizerskými horami. Je známý svým majestátním vysílačem na Ještědu (architektonická ikona), botanickou a zoologickou zahradou, a komplexem Centra Babylon. Je to oblíbené místo pro zimní sporty i letní turistiku.",
+    "description": "Leží v severních Čechách pod Ještědem a Jizerskými horami. Je známý svým majestátním vysílačem na Ještědu, botanickou a zoologickou zahradou a komplexem Centra Babylon. Je to oblíbené místo pro zimní sporty i letní turistiku.",
     "image": 
       "images/Liberec.jpg"
   },
   {
     "id": 7,
     "name": "Olomouc",
-    "description": "Historické univerzitní město na střední Moravě, proslulé Sloupem Nejsvětější Trojice, který je zapsán na seznamu UNESCO. Město má krásné historické centrum s mnoha kostely, kašnami a Arcibiskupským palácem. Je to významné církevní a vzdělávací centrum.",
+    "description": "Historické univerzitní město na Moravě, proslulé Sloupem Nejsvětější Trojice, který je zapsán na seznamu UNESCO. Město má krásné historické centrum s mnoha kostely, kašnami a Arcibiskupským palácem. Je to významné církevní a vzdělávací centrum.",
     "image": 
       "images/Olomouc.jpg"
   },
@@ -62,7 +62,7 @@
   {
     "id": 9,
     "name": "Pardubice",
-    "description": "Město ve východních Čechách na řece Labi, známé především perníkem, Velkou pardubickou steeplechase (dostihy) a renesančním zámkem. Má krásné historické centrum s typickými perníkovými domy.",
+    "description": "Město ve východních Čechách na řece Labi, známé především perníkem, Velkou pardubickou steeplechase a renesančním zámkem. Má krásné historické centrum s typickými perníkovými domy.",
     "images": 
       "images/Pardubice.jpg"
   },
