@@ -1,9 +1,8 @@
 import './PageTitle.css';
 export const PageTitle = () => {
   return (
-      <header>
-        <h1 className="app-title">Local Lens</h1>
-      </header>
-
-  )
-  }
+    <div className="page-title-container">
+      <h1 className="page-title">Local Lens</h1>
+    </div>
+  );
+};

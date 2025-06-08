@@ -1,5 +1,4 @@
 import './MestoPage.css';
-
 import { PageTitle } from '../../Components/PageTitle/PageTitle';
 import { Navigace } from '../../Components/Navigace/Navigace';
 import { MestoTitle } from '../../Components/MestoTitle/MestoTitle';
@@ -9,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export const MestoPage = ({ city }) => {
   return (
-    <>
+    <div className="mesto-page-container">
       <Navigace />
       <PageTitle />
       <MestoTitle name={city.name} />
@@ -25,6 +24,6 @@ export const MestoPage = ({ city }) => {
           <Den day={'neděle'} />
         </Link>
       </div>
-    </>
+    </div>
   );
 };

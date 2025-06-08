@@ -6,12 +6,11 @@ import './style.css';
 export const HomePage = () => {
   return (
 
-     <div className="home-page-content">
-      <div></div>
-   <PageTitle />
-   <Carousel />
-    <Uvod />
-   </div>
+    <div className="home-page-container">
+    <PageTitle />
+    <Carousel />
+     <Uvod />
+    </div>
   
   );
 };

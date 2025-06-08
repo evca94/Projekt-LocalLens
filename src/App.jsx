@@ -4,10 +4,7 @@ import { ItinerarPage } from "./pages/ItinerarPage/ItinerarPage"
 import { MestoPage } from "./pages/MestoPage/MestoPage"
 import  cities from '../data/cities.json'
 
-
 export const App = () => {
-
-
 
   return(
       <BrowserRouter>
