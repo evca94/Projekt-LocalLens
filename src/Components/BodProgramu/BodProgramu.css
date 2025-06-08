@@ -40,7 +40,7 @@
     height: auto;    /* Důležité: Zachovává poměr stran obrázku při zmenšování šířky */
     display: block;  /* Odstraní zbytečné mezery pod obrázky */
 }
-}
+
 .card {
     background-color: #fff;
     border-radius: 10px;
