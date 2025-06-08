@@ -4,7 +4,7 @@
     "name": "Brno",
     "description": "Druhé největší město ČR a metropole Moravy, ležící na soutoku Svratky a Svitavy. Je významným centrem vědy, výzkumu a soudnictví s řadou univerzit. Dominantou města je hrad Špilberk a katedrála sv. Petra a Pavla. Je také známé pro svůj brněnský okruh pro motocyklové závody.",
     "image": 
-      "images/Brno.webp"
+      "images/Brno.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
   {
     "id": 3,
     "name": "Hradec Králové",
-    "description": "Město ve východních Čechách na soutoku Labe a Orlice, známé svou moderní architekturou z počátku 20. století (tzv. \"Salon republiky\"). Má krásné historické centrum s Bílou věží a katedrálou sv. Ducha. Je významným univerzitním městem.",
+    "description": "Město ve východních Čechách na soutoku Labe a Orlice, známé svou moderní architekturou z počátku 20. století. Má krásné historické centrum s Bílou věží a katedrálou sv. Ducha. Je významným univerzitním městem.",
     "image": 
       "images/HradecKralove.jpg"
     
@@ -41,14 +41,14 @@
   {
     "id": 6,
     "name": "Liberec",
-    "description": "Leží v severních Čechách pod Ještědem a Jizerskými horami. Je známý svým majestátním vysílačem na Ještědu (architektonická ikona), botanickou a zoologickou zahradou, a komplexem Centra Babylon. Je to oblíbené místo pro zimní sporty i letní turistiku.",
+    "description": "Leží v severních Čechách pod Ještědem a Jizerskými horami. Je známý svým majestátním vysílačem na Ještědu, botanickou a zoologickou zahradou a komplexem Centra Babylon. Je to oblíbené místo pro zimní sporty i letní turistiku.",
     "image": 
       "images/Liberec.jpg"
   },
   {
     "id": 7,
     "name": "Olomouc",
-    "description": "Historické univerzitní město na střední Moravě, proslulé Sloupem Nejsvětější Trojice, který je zapsán na seznamu UNESCO. Město má krásné historické centrum s mnoha kostely, kašnami a Arcibiskupským palácem. Je to významné církevní a vzdělávací centrum.",
+    "description": "Historické univerzitní město na Moravě, proslulé Sloupem Nejsvětější Trojice, který je zapsán na seznamu UNESCO. Město má krásné historické centrum s mnoha kostely, kašnami a Arcibiskupským palácem. Je to významné církevní a vzdělávací centrum.",
     "image": 
       "images/Olomouc.jpg"
   },
@@ -62,7 +62,7 @@
   {
     "id": 9,
     "name": "Pardubice",
-    "description": "Město ve východních Čechách na řece Labi, známé především perníkem, Velkou pardubickou steeplechase (dostihy) a renesančním zámkem. Má krásné historické centrum s typickými perníkovými domy.",
+    "description": "Město ve východních Čechách na řece Labi, známé především perníkem, Velkou pardubickou steeplechase a renesančním zámkem. Má krásné historické centrum s typickými perníkovými domy.",
     "images": 
       "images/Pardubice.jpg"
   },
