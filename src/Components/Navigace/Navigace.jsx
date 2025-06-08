@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import './navigace.css';
+import './Navigace.css';
 export const Navigace = () => {
   const navigate = useNavigate()
   const handleClickBack = () => {

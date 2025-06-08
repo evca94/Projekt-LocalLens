@@ -1,4 +1,4 @@
-import './den.css';
+import './Den.css';
 
 export const Den = ({day} ) => {
   return (

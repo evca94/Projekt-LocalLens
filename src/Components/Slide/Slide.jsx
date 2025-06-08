@@ -1,4 +1,4 @@
-import "./slide.css";
+import "./Slide.css";
 const styleActive = {
   transform: 'none',
   zIndex: 1,

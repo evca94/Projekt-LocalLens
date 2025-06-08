@@ -1,4 +1,4 @@
-import './pageTitle.css';
+import './PageTitle.css';
 export const PageTitle = () => {
   return (
       <header>
