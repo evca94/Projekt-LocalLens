@@ -37,10 +37,9 @@
 }
 .image {
     width: 100%;
-    height: 200px; /* Pevná výška pro hlavní obrázek */
-    object-fit: cover; /* Zajistí, že obrázek vyplní element bez deformace */
-    border-radius: 10px 10px 0 0; /* Zaoblené rohy jen nahoře */
-    margin-bottom: 15px; /* Mezera pod obrázkem */
+    height: auto;    /* Důležité: Zachovává poměr stran obrázku při zmenšování šířky */
+    display: block;  /* Odstraní zbytečné mezery pod obrázky */
+}
 }
 .card {
     background-color: #fff;
