@@ -119,9 +119,11 @@ body {
         color: #333;
         margin-bottom: 10px;
         text-align: center; /* Vycentrování názvu města */
+        position: center;
     }
     .city-description {
         font-size: 1em;
+        text-align: center;
     }
 
 .slider-container {
