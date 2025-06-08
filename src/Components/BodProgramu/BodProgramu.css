@@ -1,5 +1,6 @@
 .website {
-    font-size: 0.9em;
+    display: flex;
+    font-size: 1em;
     color: #023e7e; /* Modrá barva pro odkazy */
     margin-bottom: 5px;
     text-align: center;
@@ -8,11 +9,17 @@
 }
 
 .map {
+    display: flex;
+    font-size: 1em;
     margin-top: 10px; /* Mezera nad odkazem na mapu */
+    text-align: center; /* Vycentrování odkazu na mapu */
+    color: #023e7e;
+    justify-content: center;
 }
+/*
 .website:hover {
     text-decoration: underline;
-}
+}*/
 
 .description {
     font-size: 0.9em;
@@ -24,21 +31,26 @@
     text-align: center;
 }
 .name {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding: 0 20px; /* Horizontální padding */
     position: center;
     text-align: center;
+    text-decoration: underline;
 }
 .details {
     padding: 0 20px; /* Horizontální padding */
 }
 .image {
     width: 100%;
+    max-width: 100%; /* Zajišťuje, že obrázek nepřesáhne šířku karty */
     height: auto;    /* Důležité: Zachovává poměr stran obrázku při zmenšování šířky */
     display: block;  /* Odstraní zbytečné mezery pod obrázky */
+    border-radius: 10px 10px 10px 10px; /* Zaoblení rohů obrázku */
+    margin-bottom: 15px;
+
 }
 
 .card {
