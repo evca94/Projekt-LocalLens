@@ -1,31 +1,16 @@
-.city-description {
-    font-size: 0.95em;
-    line-height: 1.6;
-    color: #0a0404;
-    margin-bottom: 30px;
-    text-align: center; 
-    position: center;
+.page-title-container {
+    display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
-/* Hlavička aplikace */
-.app-header {
+.page-title {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #fff; /* Bílé pozadí hlavičky */
-    border-bottom: 1px solid #868585; /* Jemná linka pod hlavičkou */
-}
-
-.app-title {
     font-size: 2em;
     font-weight: bold;
     color: #333;
     text-align: center;
-    flex-grow: 1; /* Aby zabralo co nejvíce místa a vycentrovalo se */
-    position: center; 
-    
+    flex-grow: 1;
+    /* Aby zabralo co nejvíce místa a vycentrovalo se */
 }
-

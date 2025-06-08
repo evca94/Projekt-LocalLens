@@ -1,4 +1,12 @@
+.city-name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .city-name {
+    display: flex;
     font-size: 1em;
     font-weight: lighter;
     color: #333;
@@ -6,12 +14,3 @@
     position: center;
     text-align: center;
 }
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Vycentrování obsahu */
-    justify-content: center; /* Vertikální vycentrování */
-    height: 100vh; /* Výška kontejneru na celou výšku viewportu */
-}
-

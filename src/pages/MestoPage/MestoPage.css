@@ -1,17 +1,27 @@
-/* Kontejner pro tlačítka dnů */
-.day-buttons-container {
-    display: flex;
-    flex-direction: column; /* Tlačítka pod sebou */
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 20px; /* Horizontální padding pro kontejner */
-    width: 100%; /* Šířka kontejneru */
-    max-width: 400px; /* Maximální šířka pro mobilní rozhraní */
-    gap: 15px; /* Mezera mezi tlačítky */
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto; /* Vycentrování kontejneru */
-  margin-top: 30px;
+.mesto-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.day-buttons-container {
+  display: flex;
+  flex-direction: column;
+  /* Tlačítka pod sebou */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  /* Horizontální padding pro kontejner */
+  width: 100%;
+  /* Šířka kontejneru */
+  max-width: 400px;
+  /* Maximální šířka pro mobilní rozhraní */
+  gap: 15px;
+  /* Mezera mezi tlačítky */
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* Vycentrování kontejneru */
+  margin-top: 30px;
+}
