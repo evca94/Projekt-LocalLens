@@ -16,7 +16,7 @@
     align-items: center;
     padding: 20px;
     background-color: #fff; /* Bílé pozadí hlavičky */
-    border-bottom: 1px solid #eee; /* Jemná linka pod hlavičkou */
+    border-bottom: 1px solid #868585; /* Jemná linka pod hlavičkou */
 }
 
 .app-title {
@@ -25,7 +25,7 @@
     color: #333;
     text-align: center;
     flex-grow: 1; /* Aby zabralo co nejvíce místa a vycentrovalo se */
-    position: center;
+    position: center; 
     
 }
 
