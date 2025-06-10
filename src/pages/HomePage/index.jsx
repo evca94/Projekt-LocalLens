@@ -8,8 +8,8 @@ export const HomePage = () => {
 
      <div className="home-page-content">
    <PageTitle />
+   <Uvod />
    <Carousel />
-    <Uvod />
    </div>
   
   );

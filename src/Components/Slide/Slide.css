@@ -14,22 +14,23 @@
 }
 
 .slide-name {
-font-family: "Jost", sans-serif;
-font-weight: large;
+ font-family: "Jost", sans-serif;
+ font-weight: large;
  font-size: 20px;
  font-weight: 500;
  text-align: center;
  text-transform: uppercase;
  color: rgb(10, 10, 10);
  position: center;
- background-color: rgba(255, 255, 255, 0.5)
+ background-color: rgba(255, 255, 255, 0.5);
 }
 .polopruhledne-pozadi {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5), border-radius(50%);
 }
+
 #next, #prev {
  position: absolute;
- top: 40%;
+ top: 27%;
  color: #0c0c0c;
  background-color: transparent;
  border: none;
@@ -46,6 +47,7 @@ font-weight: large;
  left: 20px;
 }
 #next:hover, #prev:hover {
-    color: #0c0c0c;
-    background-color: transparent;
+    color: #858585;
+    background-color: opacity(0.6), border-radius(40%);
+    cursor: pointer;
 }

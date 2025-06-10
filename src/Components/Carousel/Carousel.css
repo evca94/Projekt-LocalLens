@@ -3,21 +3,24 @@
     width: 100%;
     height: 370px;
     overflow: hidden;
+
 }
 
 .next,
 .prev {
     position: absolute;
-    top: 40%;
+    top: 27%;
     color: #0c0c0c;
-    background-color: transparent;
-    border: none;
-    font-size: x-large;
+    background-color: white, opacity(0.6), border-radius(40%);
+    font-size: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     left: 50px;
     cursor: pointer;
+    z-index: 2;
+
 }
+   
 
 .next {
     left: unset;
@@ -25,13 +28,14 @@
 }
 
 .prev {
-    left: 50px;
+    left: 50%px;
 }
 
 .next:hover,
 .prev:hover {
-    color: #0c0c0c;
-    background-color: transparent;
+    color: #858585;
+    background-color: opacity(0.6), border-radius(40%);
+    cursor: pointer;
 }
 
 cursor {

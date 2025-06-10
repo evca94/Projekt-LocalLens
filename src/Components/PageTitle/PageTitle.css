@@ -11,7 +11,7 @@
     font-size: 2em;
     font-weight: bold;
     color: #333;
-    text-align: center;
+    /*text-align: center;
     flex-grow: 1;
     /* Aby zabralo co nejvíce místa a vycentrovalo se */
 }
