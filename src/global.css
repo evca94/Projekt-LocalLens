@@ -13,3 +13,7 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
+
+.cursor {
+  cursor: pointer;
+}

@@ -20,3 +20,11 @@
  left: unset;
  right: 50px;
 }
+#prev {
+ left: 50px;
+}
+#next:hover, #prev:hover {
+    color: #0c0c0c;
+    background-color: transparent;
+}
+

@@ -6,6 +6,7 @@
 }
 
 .city-name {
+    font-family: "Rajdhani", sans-serif;
     display: flex;
     font-size: 1em;
     font-weight: lighter;
